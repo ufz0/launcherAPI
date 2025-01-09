@@ -53,6 +53,6 @@ app.get('/api/getVersions/:game/:email', async (req, res) => {
     }}
 });
 
-app.listen(8088, () => {
-    console.log('API is running on https://localhost:8088');
+app.listen(8089, () => {
+    console.log('API is running on https://localhost:8089');
 });
